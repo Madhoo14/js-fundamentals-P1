@@ -13,7 +13,15 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  let chara = "#";
+  let counter = 7;
+  while (counter != 0) {
+    console.log(chara);
+    counter = counter -1
+    chara = chara + "#"
+  }
+
+  //-----------------------------------------------------------------
   // Write code between the lines (above)
   //
   //
